@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+h1 {
+  font-size: 10vw;
+}
+
+body {
+  background: rgba(159, 246, 254, 1);
+  color: rgb(68, 63, 59);
+  height: 130vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Major Mono Display', monospace;
+  overflow: hidden;
+}
+
+.colon {
+  color: rgb(118, 119, 119);
+}
+
+#clock {
+  text-align: center;
+}
+
+/* .button {
+  background-color: #c6def1;
+  text-align: center;
+  padding-top: .9em;
+  font-size: 2em;
+  font-family: 'Share Tech Mono', monospace;
+  border-top: solid 2px;
+  border-color: rgb(68, 63, 59);;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+} */
+
+.button {
+  background-color: rgb(68, 63, 59);
+   color: rgb(189, 217, 239);
+  text-align: center;
+  padding-top: .9em;
+  font-size: 2em;
+  font-family: 'Share Tech Mono', monospace;
+  border-top: solid 2px;
+  border-color: rgb(118, 119, 119);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.right {
+  border-left: solid 2px;
+  border-color: rgb(118, 119, 119);
+}
+
+#startOrStopTheWatch {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  height: 2em;
+}
+
+#resetTheWatch {
+  position: fixed;
+  bottom: 0;
+  right: 0;  
+  width: 50%;
+  height: 2em;
+}
+
+.button:hover {
+  background-color: rgb(189, 217, 239);
+  color: rgb(68, 63, 59);
+}
+
+.button:active {
+  color:hotpink;
+}
