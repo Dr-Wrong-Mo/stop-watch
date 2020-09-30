@@ -17,26 +17,15 @@ body {
 }
 
 .colon {
-  color: rgb(118, 119, 119);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(118, 119, 119);
+  color: transparent;
+  font-size: .8em;
 }
 
 #clock {
   text-align: center;
 }
-
-/* .button {
-  background-color: #c6def1;
-  text-align: center;
-  padding-top: .9em;
-  font-size: 2em;
-  font-family: 'Share Tech Mono', monospace;
-  border-top: solid 2px;
-  border-color: rgb(68, 63, 59);;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-} */
 
 .button {
   background-color: rgb(68, 63, 59);
